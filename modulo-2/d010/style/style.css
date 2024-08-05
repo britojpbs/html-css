@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+MX:wght@100..400&display=swap');
 @font-face {
     font-family: idroid;
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('/fonts/idroid.otf') format('opentype');
 }
 
 :root {
@@ -15,7 +15,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'idroid', cursive;
+    --fonte-android: idroid, cursive;
 }
 
 * {
@@ -109,7 +109,7 @@ main strong {
 
 h2 {
     color: rgb(23, 103, 23);
-    font: normal bolder 1em var(--fonte-android);
+    font: normal bolder 1em idroid;
     font-size: 2em;
 }
 
