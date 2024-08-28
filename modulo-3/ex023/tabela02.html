@@ -17,6 +17,7 @@
             width: 500px;
             margin: auto;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -41,8 +42,18 @@
             border: 1px solid black;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        
         td {
             padding: 5px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td.num {
